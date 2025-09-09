@@ -2,7 +2,7 @@ provider "google" {
   project = "qwiklabs-gcp-02-fa7c1432ab34"
   region  = "us-central1"
 }
-
+# TEST CHANGE
 resource "google_storage_bucket" "example" {
   name          = "demo-${random_id.rand_suffix.hex}"
   location      = "us-central1"
