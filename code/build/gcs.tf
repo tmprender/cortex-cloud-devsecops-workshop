@@ -10,6 +10,7 @@ resource "google_storage_bucket" "example" {
 
   uniform_bucket_level_access = false
   #public_access_prevention = "enforced"
+  public_access_prevention = "enforced"
 }
 
 resource "random_id" "rand_suffix" {
